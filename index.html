@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>vote for the cutest</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<header>
+<h1>Vote for the cutest animal</h1>
+</header>
+
+<h5>The polls!!</h5>
+<h2 class="elite">Contestants</h2>
+
+<div class="allContestants">
+
+<div id="cat">
+<h6>Mr. Cute</h6>
+<img src="https://i.pinimg.com/originals/d8/6a/bf/d86abf5e9e32b89298731f39f283582c.gif" alt="Mr. Cute" width="556" height="300" />
+<div>
+<p id="catdescription">
+    The color of a kitten's eyes can change as they age. <br />
+    Many kittens are born with blue eyes, but over time,<br />the color may shift to their permanent eye color.
+</p>
+<br />
+
+<button onclick="toggleDisplay('catdescription')">About me</button>
+<button onclick="increaseVoteByOne('cat')">click to vote</button>
+</div>
+<hr />
+</div>
+
+<div id="monkey">
+<h6>Mx. Monkey</h6>
+<img
+src="https://gifdb.com/images/high/cartoon-monkey-waving-nbf2iw0jzn2axjtb.gif"
+alt="Mx. Monkey"
+width="560"
+height="300"
+/>
+
+<div>
+<p id="monkeydescription">
+    Some monkeys use tools<br />
+    such as using sticks to extract insects<br />
+    from tree bark or stones to crack open nuts.
+</p>
+<br />
+<button onclick="toggleDisplay('monkeydescription')">About me</button>
+<button onclick="increaseVoteByOne('monkey')">click to vote</button>
+</div>
+<hr />
+</div>
+
+<div id="zebra">
+<h6>Ms. Zebra</h6>
+<img
+src="https://media2.giphy.com/media/20G9uNqE3K4dRjCppA/source.gif"
+alt="Ms. Zebra"
+width="556"
+height="300"
+/>
+<div>
+<p id="zebradescription">
+    They are herbivores and primarily eat grasses, but they are selective grazers  <br />
+    and prefer certain grass species over others.<br />
+    Zebras are social animals that often form groups called "dazzles" to protect against predators, as their stripes can confuse and deter attackers.
+</p>
+<br />
+<button onclick="toggleDisplay('zebradescription')">About me</button>
+<button onclick="increaseVoteByOne('zebra')">click to vote</button>
+</div>
+<hr />
+</div>
+
+<div id="lion">
+<h6>Dr. Lion</h6>
+<img src="http://bestanimations.com/Animals/Mammals/Cats/Lions/animated-lion-gif-11.gif" alt="Dr. Lion" width="556" height="300" />
+<div>
+<p id="liondescription">
+Dr. Lion,Lions are known for their roars, which can be heard up to 5 miles away.Roaring <br />
+ is a way for lions to communicate.<br />
+ with each other.
+</p>
+<br />
+<button onclick="toggleDisplay('liondescription')">About me</button>
+<button onclick="increaseVoteByOne('lion')">click to vote</button>
+</div>
+<hr />
+</div>
+
+<div id="panda">
+<h6>Mme. Panda</h6>
+<img
+src="https://media.giphy.com/media/ALalVMOVR8Qw/giphy.gif"
+alt="Mme Panda"
+width="550"
+height="300"
+/>
+<div>
+<p id="pandadescription">
+    Pandas have a "thumb" that is actually an enlarged wrist bone, which helps them grip bamboo stems.<br />
+    Despite their large size<br />pandas are skilled climbers and swimmers.
+</p>
+<br />
+<button onclick="toggleDisplay('pandadescription')">About me</button>
+<button onclick="increaseVoteByOne('panda')">click to vote</button>
+</div>
+<hr />
+</div>
+</div>
+<!-- <section id="addCharacters"></section>-->
+<script src="script.js"></script>
+</body>
+</html>
